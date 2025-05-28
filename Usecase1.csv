@@ -1,0 +1,187 @@
+Usecase Title,App type/Industry,App name,Business process,Persona,Goal,Pre-state,Business Implications,Process Enhancements with Whatfix,Post state 
+Drive portal adoption and self-service among legacy users for Workday Applications,ERP - Finance,Workday,"Finance & Procurement Processes: Purchase Requisition, Financing, Payment Approval, Supplier Management",Finance and Procurement Department Employees,Drive portal adoption and self-service among legacy users using Whatfix for Workday applications.,"Legacy Habits: The finance and procurement department relied heavily on traditional methods. Users were accustomed to walking up to colleagues (SMEs) for assistance with routine tasks.
+
+Limited User Engagement: Despite the availability of the Workday portal, user engagement was low. Many users bypassed the digital platform, preferring in-person help for tasks like raising new purchase orders, managing supplier contracts, or processing invoices.
+
+Reliance on SMEs: A small group of SMEs became a bottleneck for task execution. Colleagues routinely sought help with even basic tasks, leading to delays and reduced overall team efficiency. On average, 2 key SMEs spent 30-60 minutes daily assisting 3-4 colleagues each, hindering their ability to focus on more strategic work.
+
+Ineffective Knowledge Base: Existing SharePoint knowledge documents aimed at guiding users through specific tasks were not user-friendly. The complex language and lack of clear instructions discouraged users from relying on this resource.","Low Adoption: The limited adoption of the Workday portal prevented Brevan Howard from fully utilizing the capabilities and functionalities of the new system. 
+
+Decreased Productivity: The reliance on manual processes and constant need for SME assistance created significant time inefficiencies. Valuable work hours were wasted waiting for help hindering overall team productivity.
+
+Lack of Transparency: Bypassing the digital platform for manual assistance meant that proper tracking and approval processes were often bypassed. This reduced transparency and accountability within the finance and procurement department.","Guided Flows: Comprehensive guided flows were created for essential finance processes such as finding cost centers, creating purchase orders, approving invoices, and managing supplier contracts.
+
+PDF Distribution: To drive portal adoption, these guided flows were shared as PDFs to serve as user guides. When colleagues reached out for assistance, they were provided these PDFs to complete tasks independently.
+
+Positive User Response: Users started adopting the PDF guides and were able to quickly complete tasks without further questions, indicating a positive reception and increased efficiency.","Successful Adoption via PDFs: The initial strategy of sharing PDF guides proved successful in facilitating portal adoption. Users could independently complete tasks quickly, leading to an overall increase in portal engagement and self-service.
+
+Time Savings: The time spent on task assistance by the SMEs was drastically reduced from 30-60 minutes a day to just 5-10 minutes on average for sharing and completing the task using the PDF guides.
+
+Increased Portal Adoption: 
+
+The improved accessibility and user-friendliness of the guided PDFs resulted in improved portal adoption rates among finance users.  
+
+There has been a month-on-month increase in the number of users.
+
+The number of users increased from 250 to 780 in the past two quarters."
+Enhancing Time Card Entry Accuracy with Whatfix,Energy Industry,Work Tech Time,Entering Time in Time Cards,Field Users,"Ensure accurate time entries for leave requests and work hours, reduce errors and manual follow-up by managers, and improve overall efficiency.","Field users frequently entered incorrect hours in the Time Entry field, ignoring warning messages (e.g., exceeding daily work hours)
+
+Managers spent a significant amount of time (8 hours per week) manually identifying and correcting these errors, increasing their workload
+
+The lack of preventative measures allowed incorrect submissions, creating inefficiencies in the time card management process.","Decreased Productivity: Managers spend a significant amount of time (8 hours per week) manually identifying and correcting errors. 
+
+Increased Payroll Costs: Inaccurate time entries can lead to overpayments for employees or underpayments that result in fines.
+
+Lack of standardization: Managers applied inconsistent error correction methods (emails, direct communication) to address the issue which did not work as expected.","An automated smart tip was created using Whatfix's Trigger feature. This smart tip provided real-time guidance directly within the Time Entry field.
+
+The trigger is activated upon encountering a warning message for an incorrect time entry (e.g., exceeding daily work hours).
+
+The smart tip prompted users to review and correct their entries before submission","increased Efficiency: Managers no longer spend approximately 8 hours per week on correcting errors, freeing up time for more strategic tasks.
+
+Streamlined Payroll Processing: Fewer errors translated to faster payroll processing, potentially reducing delays and administrative burdens. However, customer is hesitant on sharing these numbers.
+
+Standardized Approach: Whatfix ensured a consistent approach to error correction across the organization, eliminating discrepancies in manager feedback."
+Reducing HR workload and improving application adoption in Successfactors,Human Capital Management,SuccessFactors,"Talent acquisition, Performance management, and Learning and Development.","Employees, HR","Enhance user adoption, improve colleague experience, increase operational efficiencies, and promote data accuracy","Employees underwent a 5-6 hour core functionality training followed by a 2-hour onboarding session.
+
+Employees also did not have access to any real-time assistance with only classroom training and scattered support articles.
+
+Additionally, the HR team connects with the Employees to have the required information filled in, which on average takes about 20 min.
+
+Understanding the user behavior on the application was tough due to a lack of user and usage data.","Adoption Issues: Low user adoption due to lengthy training and limited support.
+
+Lower Data Update Activity: Inaccurate and incomplete D&I data impacted HR activities and decision-making
+
+HR Dependency - The employees have a dependency on the HR team for any assistance and completion of onboarding tasks.
+
+Employee Experience: Negative employee experience due to lack of real-time support.","Flows, Smart Tips, Self-Help, and Task List Creation
+
+Flows: Step-by-step guides for various processes.
+
+Smart Tips: Context-sensitive assistance within the application.
+
+Self-Help: On-demand assistance for independent resolution
+
+Task Lists: Organized lists to manage and complete their tasks efficiently.
+
+Content Categorization
+
+User Groups: Managers, Colleagues, HR Services (with specific flows)
+
+Flow Content: Specific guides for managing time off, personal information, position management, and leaver management.
+
+Homepage Navigation: Welcome pop-up to help users get started.
+
+D&I Update Activity: Pop-ups and contextual tips for D&I updates, with user action tracking.","High Engagement: Over 70% of unique users interact with Whatfix content, demonstrating strong engagement.
+
+Streamlining Onboarding: Initially, traditional training took a total of 7 hours (5 hours core functionality + 2 hours onboarding). By using task lists, users were able to complete the onboarding tasks in 30 min and the other core flows part of the traditional training are available in Self Help and users can complete all the flows in 4 hours on average. 
+
+Reduced HR Workload: The additional dependency of HR following up with the employee is eliminated thereby saving 20 min per user for the users who completed the tasks using the task list. 
+
+Active Process Utilization: Around 30 process flows are actively used, indicating effective process adoption. 60% of colleagues chose to follow the provided guidance rather than skipping it. These contents provided them with real-time assistance.
+
+Increased Data Updates: ~3,000 users updated information using task lists. Post implementing Smart Tips along with UAs, we saw a month-on-month rise in D&I information updates from 70% to 95%.
+
+The customer has highlighted that Whatfix helped achieve excellent user experience and increased user satisfaction based on the internal survey feedback.
+
+There has been a significant improvement in the team’s operational efficiencies, along with valuable insights for the product owner to continuously enhance the application. This value is also validated by their presentation during the London User Group Meeting in Sept 2023. "
+Minimizing Training Costs associated to HR processes with Whatfix,HCM / Healthcare ,Ciphr HR,All processes,Employees and Managers,"Reduce the average number of queries per session by 30% in the first quarter
+
+Decrease the frequency of monthly sessions to twice a year.
+
+Reduce the number of email queries received about the Ciphr HR application by 50% in the first quarter.","Inefficient Training: Many Traditional trainings were undertaken making it time-consuming and often ineffective.
+
+Monthly 45-minute refresher sessions.
+
+Single 45-minute session for new joiners, followed by monthly refreshers.
+
+Two resources were required per session
+
+Frequent Support Queries: Users frequently contacted the HR team even after these training sessions with questions about the application on topics such as the need to apply for annual leaves or approve/ applying leaves on CIPHR HR and wanted such queries to reduce","Increased Operational Costs: The HR team spent significant time answering questions and providing training.
+
+Delayed Processes: Support Query resolution led to delays in HR processes, such as leave approvals.
+
+Reduced Productivity: Frequent support queries and training sessions diverted resources from core tasks.","Whatfix implemented the following solutions:
+
+Popups and Flows: Guided users step-by-step through leave applications, approvals, and other key processes.
+
+
+
+Self-Help Widget: Provided on-demand support, enabling users to resolve their queries independently without relying on HR or team members.","Elimination of Monthly Refresher Sessions: The need for monthly refresher sessions was eliminated. Sessions were reduced from monthly to twice annually, saving 18 hours of HR resources annually.
+
+80% reduction in support queries: Email queries about CIPHR dropped by 80%, as reported by the client. Monthly open-house refresher sessions were discontinued in June, yet queries remained minimal, demonstrating improved self-sufficiency among users.
+
+Improved Knowledge: Managers and employees are now much more aware of the processes, and spend time performing them rather than learning how to."
+Preventing Payroll Errors by Nudging Managers to Use the Correct Timesheet Field,HCM / Consumer Goods,Infor HCM (Browser),Timesheet Completion,Manager,Reduce incorrect field usage by nudging managers to use the ‘Home Cost Center’ field instead of ‘Associate ID’ to prevent mismatches and payroll errors.,"Field Confusion During Timesheet Entry: Managers filling out timesheets were required to enter associate details. The form included two fields: ‘Associate ID’ and ‘Home Cost Center’. While both fields retrieved user data, Compass Group recommended using ‘Home Cost Center’ because it is unique to each associate.
+
+Source of Errors: With over 30,000 managers using the system, multiple employees had identical or similar names linked to their ‘Associate ID’. Managers unaware of this overlap were selecting the wrong associate record, which led to incorrect timesheet entries.
+
+Inefficiency and Inconsistency: Approximately 50 percent of users defaulted to using the ‘Associate ID’ field, resulting in frequent mismatches. These errors had to be manually corrected, consuming administrative time and delaying payroll processes.","Payroll Discrepancies and Compliance Risk: Incorrect allocation of work hours could lead to misapplied pay scales, payroll errors, and potential labor law violations.
+
+Increased Manual Rework: HR and payroll teams had to spend additional time resolving incorrect timesheet data, impacting operational efficiency.
+
+Escalation Overhead: Repeated errors led to avoidable escalations, consuming manager time and delaying resolution cycles.","Smart Tips for Contextual Nudges: Whatfix implemented Smart Tips on both ‘Associate ID’ and ‘Home Cost Center’ fields. When users hovered or clicked on the field, a message appeared saying:
+“Avoid using Associate ID if you are using Home Cost Center, and vice versa.”
+
+Dynamic Logic to Guide Users:
+
+Used selector logic and dynamic display rules to trigger the right Smart Tip based on user actions
+
+Regex-based conditions were applied to track interaction patterns between the two fields
+
+Despite limitations in triggering Smart Tips based on other element interactions, a workaround using custom display conditions and styling was successfully implemented","Improved Field Adoption: In the 90 days following go-live, the Smart Tip on the ‘Home Cost Center’ field was triggered 353 times, compared to 140 times on the ‘Associate ID’ field. This indicates a clear shift in behavior toward using the recommended field.
+
+Reduced Errors and Support Intervention: Given that timesheet updates are recurring (weekly or monthly), the Smart Tips served as an ongoing checkpoint. By intercepting potentially incorrect entries, the system prevented over 350 instances of possible error.
+
+No Baseline, But Significant Progress: While historical baselines were not available to compare past data trends, the live usage patterns show a 60 percent reduction in reliance on the incorrect field. The customer acknowledged that this nudging mechanism is already helping reduce timesheet errors."
+Preventing Payroll Errors by Nudging Managers to Use the Correct Timesheet Field,HCM / Education,Workday,Job Requisition Management,"HR Business Partners
+
+Talent Acquisition Team",Enforce a content freeze within Workday by blocking submission of new job requisitions during policy-enforced freeze periods and prevent outdated job profile formats from being reused,"Unstructured Job Requisition Entries
+Older job profiles relied on a single field, “More About This Job,” to capture qualifications, skills, and other key information.
+
+The new structure introduced dedicated fields like “Qualifications” and “Skills Required” for clearer data segregation.
+
+Non-Compliance During Transition
+Users unaware of the updated process continued to paste or replicate job details using outdated templates.
+
+Submitting non-compliant job requisitions during content freeze periods required HR to cancel, deny, or manually delete entries.
+
+Time Drain and Operational Overhead
+On average, each incorrect submission required 1–3 hours of HR effort to resolve, including cancellation and email follow-ups.
+
+HR received repeated queries from users whose requests were denied due to their unawareness of the content freeze policy.","Increased Manual Effort and HR Frustration
+HR teams spent unnecessary time canceling requests, managing clarifications, and ensuring policy enforcement manually.
+
+Workflow Inefficiency
+Manual deletions delayed downstream processes like candidate sourcing and requisition approvals.
+
+Poor User Experience
+End-users had no visibility into why submissions were blocked, resulting in confusion and rework.","Launcher-Based Submission Blocker
+A Whatfix Launcher was configured to overlay the Submit button across four key processes:
+
+Create Job Requisition
+
+Edit Position Restrictions
+
+Create Position
+
+Create Evergreen Job Requisition
+
+The launcher was styled to match the native button and triggered a pop-up warning message during content freeze windows.
+
+Preemptive User Notification
+The pop-up communicated the content freeze and instructed users not to proceed with job requisition creation.
+
+This intervention proactively prevented submissions rather than correcting them","Submission Blocks Prevented Through Proactive Guidance
+Whatfix successfully intercepted 289 submission attempts across 4 key processes during the content freeze period, ensuring process compliance and eliminating downstream cleanup.
+
+This block prevented users from proceeding with incorrect job requisitions during the freeze, reducing unnecessary operational overhead.
+
+Significant Time Savings for the HR Team
+
+Preventing these invalid submissions helped the WashU HR team avoid manual deletion and follow-up efforts.
+
+Estimated time saved: between 289 and 867 hours over just 15 days.
+
+Positive Stakeholder Feedback
+
+The WashU Talent Acquisition team confirmed the solution was both timely and effective, praising its precision in enforcing compliance without disrupting overall operations."
