@@ -5,12 +5,12 @@ from io import BytesIO
 from docx import Document
 from fpdf import FPDF
 
-# Load usecases CSV
+
 @st.cache_data
 def load_csv():
     return pd.read_csv("Usecase1.csv")
 
-# Extract 3–4 sample usecases to ground the LLM prompt
+
 def get_usecase_examples(df):
     examples = []
     for _, row in df.head(4).iterrows():
@@ -29,10 +29,10 @@ Post-State: {row['Post state ']}
         examples.append(example)
     return "\n---\n".join(examples)
 
-# Initialize Together API
-client = Together(api_key="eef6e7bf91fd11b40888ae99502d02a863ff649d03f709092c455783cc707b71")
 
-# Generate onboarding plan from Together AI
+client = Together(api_key="") # removed purposely
+
+
 def generate_onboarding_plan(problem_statement: str, sample_usecases: str) -> str:
     SYSTEM_PROMPT = f"""
 You are a Digital Adoption Consultant working for a top-tier DAP (Digital Adoption Platform) company like Whatfix or WalkMe. Your job is to analyze client onboarding problems and generate high-quality, enterprise-ready onboarding plans that are:
@@ -81,7 +81,7 @@ Onboarding Plan:
     )
     return response.choices[0].message.content.strip()
 
-# Export functions
+
 def to_docx(text):
     doc = Document()
     doc.add_paragraph(text)
@@ -101,7 +101,7 @@ def to_pdf(text):
     return BytesIO(pdf_output)
 
 
-# --- Streamlit UI ---
+
 st.set_page_config(page_title="💡 DAP Usecase Generator", layout="centered")
 st.title("💡 DAP Usecase Generator")
 
